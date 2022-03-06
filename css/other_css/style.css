@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+nav a {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.2);
+
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#outer-container {
+    height: 100%;
+} 
+
+#inner-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    gap: 1%;
+}
+
+.item {
+    height: 300px;
+    /* border: 1px solid black; */
+    box-shadow: -5px 5px 10px rgba(0,0,0,.2);
+}
+
+.no-click {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -100%;
+}
+
+.center-text {
+    text-align: center;
+    
+}

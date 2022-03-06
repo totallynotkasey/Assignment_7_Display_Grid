@@ -1,0 +1,19 @@
+/* Use 
+display grid
+grid-template-columns
+gird-column-start
+*/
+
+#container {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-column-start: 1;
+    background-color:rosybrown;
+}
+
+#middle-column {
+    padding-top: 10px;
+    grid-column-start: 2;
+    background-color: lightblue;
+    height: 1000px;
+}

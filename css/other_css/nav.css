@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+nav a {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.3);
+    overflow: hidden;
+
+}
